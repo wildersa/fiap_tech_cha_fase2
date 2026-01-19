@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+*.whl
+
+# Virtual environments
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# Pytest
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Mypy / Pyright
+.mypy_cache/
+.pyright/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Local config files and secrets
+.env*
+secrets.json
+
+# Data (raw/refined datasets, large artifacts)
+/data/raw/
+/data/refined/
+
+# Build/test artifacts
+.coverage
+*.cover
+
+# Other
+*.pytest_cache/
+
+# Keep a placeholder if you want to track an empty folder
+# e.g. add a file named .gitkeep and track it explicitly
+
+/docs

@@ -1,0 +1,22 @@
+[project]
+name = "fiap-tech-cha-fase2"
+version = "0.1.0"
+description = "Pipeline de ingestão de dados B3 para S3"
+authors = [
+    {name = "Wilder Andreatta",email = "r3d_l1w@hotmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "yfinance",
+    "boto3",
+    "pandas",
+    "pyarrow",
+    "python-dotenv (>=1.2.1,<2.0.0)",
+    "pygments (>=2.19.2,<3.0.0)",
+    "packaging (>=25.0,<26.0)",
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
